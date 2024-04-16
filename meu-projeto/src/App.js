@@ -1,26 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
+import HelloWorld from './components/HelloWorld'
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
+
 
 function App() {
 
-  const name = 'caio';
-  const newName = name.toUpperCase()
-
-  function sum(a,b){
-    return a + b
-  }
-
-  const url ='https://via.placeholder.com/150'
+  const nome = "Luiza"
 
   return (
     <div className="App">
-      <h2>alterando o jsx</h2>
-      <p>utilizando jsx</p>
-      <p>Olá, {newName}</p>
-      <p>Soma: {sum(1,2)}</p>
-      <img src={url} alt="Minha imagem"/>
+      <h1>Testando CSS</h1>
+      <SayMyName nome="Caio" />
+      <SayMyName nome={nome} />
+      <Pessoa nome="Caio" idade="28" profissao="Programador" foto="https://via.placeholder.com/150"/>
+      <Frase />
     </div>
   );
 }
 
-export default App;
+export default App
