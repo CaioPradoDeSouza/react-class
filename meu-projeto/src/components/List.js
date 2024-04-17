@@ -9,8 +9,9 @@ function List() {
             <ul>
                 <li>1111</li>
                 <li>2222</li>
-                <Item marca="suzuky"/>
-                <Item marca="honda" />
+                <Item marca="suzuky" ano_lancamento={2016}/>
+                <Item marca="honda" ano_lancamento={2014}/>
+                <Item />
             </ul>
         </>
     )
