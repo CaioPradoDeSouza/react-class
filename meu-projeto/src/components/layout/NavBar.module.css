@@ -1,0 +1,17 @@
+.list{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(5, 7, 7);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.item{
+    color: red;
+    font-size: 25px;
+    list-style: none;
+
+}
