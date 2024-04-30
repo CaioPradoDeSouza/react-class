@@ -1,0 +1,14 @@
+.social_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    list-style: none;
+}
+
+.social_list_li{
+    padding: 25px;
+    font-size: 40px;
+    color: black;
+    
+}
