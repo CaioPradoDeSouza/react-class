@@ -1,0 +1,56 @@
+{
+  "projects": [
+    {
+      "id": "5f68",
+      "name": "projeto teste",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "budget": "5000",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "876d",
+      "name": "projeto teste",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "budget": "5000",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "fb9f",
+      "name": "caio",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "d489",
+      "name": "caio",
+      "cost": 0,
+      "services": []
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
